@@ -6,7 +6,7 @@ let archivoValidar=require('./validar.js')
 
 describe("pruebaSuma",()=>{
     it("El resultado es 6",()=>{
-        const result=archivoValidar.suma(5,3)
+        const result=archivoValidar.suma(4,2)
         expect(result).to.be.equal(6)
     })
 
