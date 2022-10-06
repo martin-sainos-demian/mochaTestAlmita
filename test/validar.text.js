@@ -9,4 +9,9 @@ describe("pruebaSuma",()=>{
         const result=archivoValidar.suma(5,3)
         expect(result).to.be.equal(6)
     })
+
+    it("prueba de correo",()=>{
+        const result=archivoValidar.validarCorreo("alma@gmail.com")
+        expect(result).to.be.equal(true)
+    })
 })
