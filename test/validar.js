@@ -3,3 +3,5 @@ class validar{
         return a+b
     }
 }
+
+module.exports = new validar()
